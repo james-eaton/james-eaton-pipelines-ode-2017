@@ -1,15 +1,15 @@
 version: 1.0.0
 variables:
   global:
-    N3_KEY: 046df569-b9f2-465f-b6af-b3e319fff2ee
+    # N3_KEY: 046df569-b9f2-465f-b6af-b3e319fff2ee
     # For the POC to work, you must add the N3_SECRET environment variable
     # containing your Cloud API secret key:
     #
     # echo -n 'A9qI+gFhIJOAL4lxkYRy38dseFPFYdI9U8v5B+/IDek=' | pipelines encrypt - --add variables.global.N3_SECRET
     N3_SECRET:   
       secure: 2acgKk5J1Ye1hhSAEizfSPpydeAswEUYxQ+fVYtqdLz47c31nsSRAjNp01Nsc7iqcNI6TpLaujFN66092hgvfxKwuPlyZBRoWwIghUDJvF/2CrHta+8Ti9w3XLNJrtI88QOfoKIpAMShuFbu8wy49U0Kci8669Divd67BCbM9fhVOGfKCDDjspKvZJ0yvyysh7cr042juGJBM9Zm+N+gzQlmYZaY2s44t8xKE7nYJY2M2naopTMyMOoDdQt+7d8w8BRP25/0Tw2tgcqtwVIZPTB4TsUxish6vyu1YTCD+5EPHJxTEnqjuZc/eF8afvCjaWoKZtYBsniAUkS4h/mrWIN7wOnSQRuS8VqN8sCiZWzoMsuNmoFZpS5mW319PgoiURRjrhhP0KE0DAx1sxGCtka24emTcWr1IWivspffXtQvk8HLfBYF78BC1xXzP4Z0oMlPp5o92xIhVXvdFNjVHgJI/JAnBC4c+ns2iZn3ka7HBtq+cV2B69W1A+QduLvJ1fP4Fujp9INAW49ZcDc80WuIRMPBIbeALs6v0mrl64zgxl7RUNNXnEQa9Eo8S7rXP4fIxFyU5st3lBnpf0HMcjeqzjb/N9fjV1weTYKvT/YquV0bC7IMzKhuTJbFA225B86hcgy0OGmy9cnHDtDB8er4GIv+4Fwe15UDkb6jGf/h04=gOZAC9meKcwDzzMofOezEpjkPlvbrVPgAdOHA72d7TVbcxUNQ/PlqTFk6BmuT+zdes/xFijriW7OdSpFjakY1ktg1IR39NjZg/7RIe2Ufg7LG1/3BgukmT9mqJazdjTvnOKdzwfU4/ok2s+QnoYKBiGr8ayCj2A9FfQG9eZHbMo=
-    PIPELINES_DEPLOY_URL: https://github.com/acquia/pipelines-examples/releases/download/deploy-latest/pipelines-deploy
-    PIPELINES_DEPLOY_TOOL: $HOME/pipelines-deploy
+    # PIPELINES_DEPLOY_URL: https://github.com/acquia/pipelines-examples/releases/download/deploy-latest/pipelines-deploy
+    # PIPELINES_DEPLOY_TOOL: $HOME/pipelines-deploy
 events:
   build:
     steps:
